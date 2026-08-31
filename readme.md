@@ -10,6 +10,8 @@ hello.py tehtävä tehty
 
 Tehtävät 1-6 tehty
 
+Peliprojekti palautettu
+
 ## Moduuli 3
 
 Tehtävät 1-4 tehty
