@@ -1,4 +1,4 @@
-sukupuoli = input("Anna biologinen sukupuolesi (nainen/mies): ").lower()
+sukupuoli = input("Anna biologinen sukupuolesi (nainen/mies): ")
 arvo = int(input("Anna hemoglobiiniarvosi (g/l): "))
 
 if sukupuoli == "nainen":
