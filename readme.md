@@ -8,4 +8,8 @@ hello.py tehtävä tehty
 
 ## Moduuli 2
 
-Tehtävät 1-6 tehtynä
+Tehtävät 1-6 tehty
+
+## Moduuli 3
+
+Tehtävät 1-4 tehty
