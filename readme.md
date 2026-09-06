@@ -10,8 +10,19 @@ hello.py tehtävä tehty
 
 Tehtävät 1-6 tehty
 
-Peliprojekti palautettu
+Peliprojekti (v1) palautettu
 
 ## Moduuli 3
+
+Tehtävät 1-4 tehty
+
+## Moduuli 4
+
+Tehtävät 1-5 tehty
+En osannut tehdä 6. tehtävää, se oli muistaakseni vapaaehtoinen
+
+Peliprojektia muokattu, v2 palautettu
+
+## Moduuli 5
 
 Tehtävät 1-4 tehty
