@@ -1,5 +1,8 @@
-value = 3
+pituus = int(input("Anna kuhan pituus senttimetreinä: "))
+alamitta = 37
 
-while value <= 1000:
-    print(f'{value:d}')
-    value += 3
+if pituus < alamitta:
+    puuttuu = alamitta - pituus
+    print(f"Kuhasi on alamittainen. Laske se takaisin järveen! Mitasta puuttuu vielä {puuttuu} cm.")
+else:
+    print("Hieno kala! Kuhan mitta on sallittu.")

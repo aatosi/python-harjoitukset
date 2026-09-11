@@ -1,19 +1,7 @@
-sukupuoli = input("Anna biologinen sukupuolesi (nainen/mies): ")
-arvo = int(input("Anna hemoglobiiniarvosi (g/l): "))
+kanta = input("Suorakulmion kanta (m): ")
+korkeus = input ("Suorakulmion korkeus (m): ")
 
-if sukupuoli == "nainen":
-    if arvo < 117:
-        print("Hemoglobiiniarvosi on alhainen.")
-    elif arvo > 175:
-        print("Hemoglobiiniarvosi on korkea.")
-    else:
-        print("Hemoglobiiniarvosi on normaali.")
-elif sukupuoli == "mies":
-    if arvo < 134:
-        print("Hemoglobiiniarvosi on alhainen.")
-    elif arvo > 195:
-        print("Hemoglobiiniarvosi on korkea.")
-    else:
-        print("Hemoglobiiniarvosi on normaali.")
-else:
-    print("Tuntematon sukupuoli.")
+kanta, korkeus = float(kanta), float(korkeus)
+
+print(f"Suorakulmion piiri: {2 * kanta + 2 * korkeus: .2f} metriä")
+print(f"Suorakulmion pinta-ala: {kanta * korkeus: .2f} neliömetriä")

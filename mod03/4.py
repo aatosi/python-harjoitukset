@@ -1,10 +1,11 @@
-vuosi = int(input("Anna vuosiluku: "))
+print("Syötä kolme kokonaislukua!\n")
 
-if vuosi % 400 == 0:
-    print("Vuosi on karkausvuosi.")
-elif vuosi % 100 == 0:
-    print("Vuosi ei ole karkausvuosi.")
-elif vuosi % 4 == 0:
-    print("Vuosi on karkausvuosi.")
-else:
-    print("Vuosi ei ole karkausvuosi.")
+luku1 = input("Luku 1: ")
+luku2 = input("Luku 2: ")
+luku3 = input("Luku 3: ")
+
+luku1, luku2, luku3 = int(luku1), int(luku2), int(luku3)
+
+print(f"Lukujen summa: {luku1+luku2+luku3: .0f}")
+print(f"Lukujen tulo: {luku1*luku2*luku3: .0f}")
+print(f"Lukujen keskiarvo: {(luku1+luku2+luku3)/3: .2f}")

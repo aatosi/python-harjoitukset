@@ -1,8 +1,12 @@
-cm = 1
-tuuma = 1
+luokka = input("Anna hyttiluokka (LUX, A, B, C): ").upper()
 
-while tuuma > 0:
-    tuuma = float(input('Syötä tuumat (positiivinen luku): '))
-    cm = float(tuuma * 2.54)
-    print(f'{tuuma: .2f} tuumaa on {cm: .2f}cm')
-
+if luokka == "LUX":
+    print("LUX on parvekkeellinen hytti yläkannella.")
+elif luokka == "A":
+    print("A on ikkunallinen hytti autokannen yläpuolella.")
+elif luokka == "B":
+    print("B on ikkunaton hytti autokannen yläpuolella.")
+elif luokka == "C":
+    print("C on ikkunaton hytti autokannen alapuolella.")
+else:
+    print("Virheellinen hyttiluokka.")

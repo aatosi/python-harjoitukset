@@ -1,21 +1,19 @@
-value = None
-isoin = None
-pienin = None
+sukupuoli = input("Anna biologinen sukupuolesi (nainen/mies): ")
+arvo = int(input("Anna hemoglobiiniarvosi (g/l): "))
 
-print('\nVoit lopettaa ohjelman syöttämällä tyhjän merkkijonon vastauksena.\n')
-
-while True:
-    value = input('Syötä luku: ')
-
-    if value == "":
-        break
-
-    value = float(value)
-    if isoin is None or value > isoin:
-        isoin = value
-    elif pienin is None or value < pienin:
-        pienin = value
-
-
-
-print(f'Suurin luku oli {isoin: .2f} ja pienin {pienin: .2f}')
+if sukupuoli == "nainen":
+    if arvo < 117:
+        print("Hemoglobiiniarvosi on alhainen.")
+    elif arvo > 175:
+        print("Hemoglobiiniarvosi on korkea.")
+    else:
+        print("Hemoglobiiniarvosi on normaali.")
+elif sukupuoli == "mies":
+    if arvo < 134:
+        print("Hemoglobiiniarvosi on alhainen.")
+    elif arvo > 195:
+        print("Hemoglobiiniarvosi on korkea.")
+    else:
+        print("Hemoglobiiniarvosi on normaali.")
+else:
+    print("Tuntematon sukupuoli.")

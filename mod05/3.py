@@ -1,15 +1,21 @@
-aluku = int(input("Anna kokonaisluku:\n"))
-omaluku = True
+value = None
+isoin = None
+pienin = None
 
-if aluku < 2:
-    omaluku = False
-else:
-    for lluku in range(2, aluku):
-        if aluku % lluku == 0:
-            omaluku = False
-            break
+print('\nVoit lopettaa ohjelman syöttämällä tyhjän merkkijonon vastauksena.\n')
 
-if omaluku:
-    print("Luku on alkuluku.")
-else:
-    print("Lukusi ei ole alkuluku.")
+while True:
+    value = input('Syötä luku: ')
+
+    if value == "":
+        break
+
+    value = float(value)
+    if isoin is None or value > isoin:
+        isoin = value
+    elif pienin is None or value < pienin:
+        pienin = value
+
+
+
+print(f'Suurin luku oli {isoin: .2f} ja pienin {pienin: .2f}')

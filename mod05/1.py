@@ -1,10 +1,5 @@
-import random
+value = 3
 
-arvat = int(input("Anna arpakuutioiden määrä: "))
-summa = 0
-
-for maara in range(arvat):
-    luku = random.randint(1, 6)
-    summa += luku
-
-print(f"Tässä summa arpakuutioista: {summa}")
+while value <= 1000:
+    print(f'{value:d}')
+    value += 3

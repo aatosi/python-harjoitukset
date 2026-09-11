@@ -1,16 +1,10 @@
-import random
+vuosi = int(input("Anna vuosiluku: "))
 
-luku = random.randint(1, 10)
-arvaus = None
-
-while True:
-    arvaus = float(input('Arvaa luku väliltä 1-10: '))
-
-    if arvaus < luku:
-        print('Liian pieni arvaus')
-    elif arvaus > luku:
-        print('Liian suuri arvaus')
-
-    if arvaus == luku:
-        print('Oikein!')
-        break
+if vuosi % 400 == 0:
+    print("Vuosi on karkausvuosi.")
+elif vuosi % 100 == 0:
+    print("Vuosi ei ole karkausvuosi.")
+elif vuosi % 4 == 0:
+    print("Vuosi on karkausvuosi.")
+else:
+    print("Vuosi ei ole karkausvuosi.")
