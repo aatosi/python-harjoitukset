@@ -7,8 +7,6 @@ class Auto:
         self.kuljettu_matka = 100
 
 
-
-
 print(f"Rekisteritunnus: {Auto.rekisteritunnus}")
 print(f"Huippunopeus: {Auto.huippunopeus} km/h")
 print(f"Tämänhetkinen nopeus: {Auto.tamanhetkinen_nopeus} km/h")
