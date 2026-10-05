@@ -1,0 +1,22 @@
+===================================================
+                ROSKARALLI 3000 - OHJEET
+===================================================
+
+Tavoite:
+Olet saanut tuomion yhteiskuntapalvelukseen luonnon roskaamisesta.
+Tehtävänäsi on siivota kaikki kaupungin ulkoilualueet roskista.
+Peli päättyy ja tuomiosi on suoritettu, kun jokainen roska
+jokaiselta alueelta on kerätty talteen.
+
+Pelissä käytettävät komennot:
+
+- kerää  : Kerää nykyisellä alueella olevan roskan reppuusi.
+- liiku  : Näyttää alueet, joihin voit siirtyä. Voit syöttää
+           alueen numeron tai nimen.
+- listaa : Näyttää kaikki tähän mennessä keräämäsi roskat ja
+           niiden yhteispainon.
+- tiedot : Näyttää nimesi, ikäsi, sijaintisi ja edistymisesi.
+- ohjeet : Tulostaa tämän ohjeruudun.
+- lopeta : Tallentaa pelitilanteesi ja sulkee pelin.
+
+===================================================
